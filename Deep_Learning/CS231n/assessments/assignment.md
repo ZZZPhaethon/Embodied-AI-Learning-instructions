@@ -6,7 +6,6 @@
 ### Overview
 Solutions for **CS231n** course assignments offered by Stanford University (Spring 2021-2025). Inline questions are explained in detail, the code is brief and commented (see examples below). From what I've checked, these are the shortest code solutions.
 
-> Check out the solutions for **[CS224n](https://github.com/mantasu/cs224n)**. They contain more comprehensive explanations than others.
 
 ### Main sources (official)
 * [**Course page**](http://cs231n.stanford.edu/index.html)
