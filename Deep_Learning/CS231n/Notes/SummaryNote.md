@@ -1,4 +1,4 @@
-# Standford CS231n 2017 Summary
+# Standford CS231n 2017 Summary (This summary gives me a lot insights and findings while learning the cs231n)
 
 After watching all the videos of the famous Standford's [CS231n](http://cs231n.stanford.edu/) course that took place in 2017, i decided to take summary of the whole course to help me to remember and to anyone who would like to know about it. I've skipped some contents in some lectures as it wasn't important to me.
 
