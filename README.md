@@ -1,5 +1,5 @@
 <h1 align="center">
-  <img src="assets/logo.png" alt="EmbodiedAI" width="500"/>
+  <img src="assets/logo.png" alt="EmbodiedAI" width="800"/>
 </h1>
 
 ## 具身智能学习指导 Embodied-AI-Learning—Instuctions
