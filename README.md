@@ -57,31 +57,18 @@
   * HuggingFace LeRobot (Europe, check the Discord): [website](https://github.com/huggingface/lerobot)
   * K-scale labs (US, check the Discord): [website](https://kscale.dev/)
  
-## 具身领域相关的公司
-| 公司 | 主营产品 | Others |
-|-------|------|------|
-| [松灵AgileX](https://www.agilex.ai/) | [pipper 六轴机械臂](https://www.agilex.ai/chassis/16)<br> [PIKA 数采方案](https://www.agilex.ai/chassis/22)<br>[Cobot Magic 双臂遥操作平台](https://www.agilex.ai/chassis/27)<br>移动底盘| 面向教育科研
-| [宇树Unitree](https://www.unitree.com/cn) | [四足机器人开发指南](https://www.yuque.com/ironfatty/nly1un/luo9gb)<br>[Go2机器狗](https://www.unitree.com/cn/go2)<br>[AlienGo机器狗](https://www.yuque.com/ironfatty/nly1un/dqcz3u)<br>[通用人形H1](https://www.unitree.com/cn/h1)<br>[通用人形G1](https://www.unitree.com/cn/g1)<br> | 许多产出使用宇树的机器人作为硬件基础
-| [方舟无限ARX](https://www.arx-x.com/?product/) | [X5机械臂](https://www.arx-x.com/?product/21.html)<br>[X7双臂平台](https://www.arx-x.com/?product/23.html)<br>[R5机械臂](https://www.arx-x.com/?product/22.html)  | 适合复现很多经典的工作, eg. [aloha](https://mobile-aloha.github.io/cn.html)<br>[RoboTwin松灵底盘+方舟臂](https://github.com/TianxingChen/RoboTwi)
-| [波士顿动力](https://bostondynamics.com/)  | [spot机器狗](https://bostondynamics.com/products/spot/)<br>[Atlas通用人形](https://bostondynamics.com/atlas/)  | 具身智能本体制造商, 从液压驱动转向电机驱动 |
-| [灵心巧手](https://www.linkerbot.cn/index) | [Linker Hand L30（健绳驱动）](https://www.linkerbot.cn/product?page=L30)<br>[Linker Hand L20（连杆驱动）](https://www.linkerbot.cn/product?page=L20) | 主攻各类灵巧手 |
-| [灵巧智能DexRobot](https://www.dex-robot.com/)| [Dexhand 021灵巧手](https://www.dex-robot.com/productionDexhand) | 19自由度量产灵巧手 |
-| [银河通用](https://www.galbot.com/about) | [GALBOT G1](https://www.galbot.com/g1) | 专注于具身智能多模态大模型通用机器人研发 |
-| [星海图Galaxea](https://galaxea.ai/) | [A1六轴机械臂](https://galaxea.ai/A1)<br>[R1-Pro 仿人形机器人](https://galaxea.ai/R1-Pro) | 软硬件产品均自主研发，专注于打造“一脑多型“ |
-| [World Labs](https://www.worldlabs.ai/) | | 专注于空间智能, 致力于打造大型世界模型(LWM), 以感知、生成并与 3D 世界进行交互。 [相关介绍](https://mp.weixin.qq.com/mp/wappoc_appmsgcaptcha?poc_token=HEH5X2ejkAoWy1ZXj8DlZO_Y2Q7PsYX-3ID-rfr5&target_url=https%3A%2F%2Fmp.weixin.qq.com%2Fs%2Fi58_yTFtt904haKezJgr1Q) |
-| [星动纪元](https://www.robotera.com) | [Star1人形](https://www.robotera.com/goods/1.html)<br> [XHAND1灵巧手](https://www.robotera.com/goods/2.html) | |
-| [加速进化](https://boosterobotics.com/zh/) | [Booster T1人形](https://boosterobotics.com/zh/store/)|  |
-| [青龙机器人](https://www.openloong.net/) |  |  |
-| [云深处科技](https://www.deeprobotics.cn/) |  [绝影X30四足机器人](https://www.deeprobotics.cn/robot/index/product3.html)<br> [Dr.01人形机器人](https://www.deeprobotics.cn/robot/index/humanoid.html) |  |
-| [松应科技](http://www.orca3d.cn/) |  | 具身智能仿真平台供应商 |
-| [光轮智能](https://lightwheel.net/) |  | 具身智能数据平台 |
-| [智元机器人](https://www.zhiyuan-robot.com/about/167.html) | [远征A2人形机器人](https://www.zhiyuan-robot.com/products/A2)<br>[远征A2-W 轮式人形](https://www.zhiyuan-robot.com/products/A2_W)<br>[灵犀X1 人形机器人](https://www.zhiyuan-robot.com/products/X1)<br>[精灵G1 轮式人形](https://www.zhiyuan-robot.com/products/A2_D)|  |
-| [Nvidia](https://www.nvidia.cn/industries/robotics/) |  | 具身智能基建公司 |
-| [求之科技](https://airbots.online/)  | [TOK2 移动主从臂平台](https://airbots.online/zh/tok)<br>[MMK2 移动升降双臂平台](https://airbots.online/zh/mmk2)<br> Play 六轴机械臂|  |
-| [穹彻智能](https://www.noematrix.ai/) | | |
-| [优必选](https://www.ubtrobot.com/cn/about/companyProfile) | | |
-| [具身风暴](https://www.robotstorm.tech) | | 落地具身智能通用按摩机器人 |
-| [众擎机器人](https://engineai.com.cn/) |[SE 01](https://engineai.com.cn/product_one)<br>[PM 01](https://engineai.com.cn/product_fore)| |
-| [魔法原子](https://www.magiclab.top/) |[MagicBot](https://www.magiclab.top/human)<br>[MagicDog](https://www.magiclab.top/dog)| |
-| [帕西尼](https://www.paxini.com/) |[PX-6AX GEN2 触觉传感器](https://www.paxini.com/ax/gen2)<br>[DexH13 GEN2 灵巧手](https://www.paxini.com/dex/gen2)<br>[TORA-ONE 人形机器人](https://www.paxini.com/robot) | |
-<section id="software"></section>
+## 具身领域的公开数据集
+* **Open X-Embodiment: Robotic Learning Datasets and RT-X Models**, [website](https://robotics-transformer-x.github.io/):  22种不同机器人平台的超过100万条真实机器人轨迹数据，覆盖了527种不同的技能和160,266项任务，主要集中在抓取和放置。
+* **AgiBot World Datasets (智元机器人)**, [website](https://agibot-world.com/): 八十余种日常生活中的多样化技能，超过100万条轨迹数据，采集自**同构型机器人**, 多级质量把控和全程人工在环的策略，从采集员的专业培训，到采集过程中的严格管理，再到数据的筛选、审核和标注，每一个环节都经过了精心设计和严格把控。
+* **RoboMIND**, [website](https://x-humanoid-robomind.github.io/): 包含了在479种不同任务中涉及96类独特物体的10.7万条真实世界演示轨迹，来自四种不同协作臂，任务被分为基础技能、精准操作、场景理解、柜体操作和协作任务五大类。
+* **All Robots in One,** [website](https://imaei.github.io/project_pages/ario/): ARIO 数据集，包含了 **2D、3D、文本、触觉、声音 5 种模态的感知数据**，涵盖**操作**和**导航**两大类任务，既有**仿真数据**，也有**真实场景数据**，并且包含多种机器人硬件，有很高的丰富度。在数据规模达到三百万的同时，还保证了数据的统一格式，是目前具身智能领域同时达到高质量、多样化和大规模的开源数据集。
+* **MimicGen** [26 Oct 2023, CoRL 2023],[repo](https://github.com/NVlabs/mimicgen),[website](https://mimicgen.github.io/)：基于Robosuite与MuJoCo开发的高效数据生成框架，主要聚焦于单臂机器人桌面操作任务，支持多种主流机器人型号。MimicGen提出了一种自动化的数据扩增方法，能够从少量真实人类演示中自动生成大量模拟数据，例如仅使用200段真人演示即可生成超过5万条仿真演示数据，涵盖18类常见机器人任务。
+* **RoboCasa** [4 Jun 2024],[repo](https://github.com/robocasa/robocasa), [website](https://robocasa.ai/):基于RoboSuite与MimicGen在MuJoCo中构建的高仿真厨房任务仿真平台。RoboCasa提供了120个多样化厨房环境，包含超过2500个3D物体模型。平台支持单臂、双臂、人形机器人以及移动底座搭载机械臂的机器人系统。此外，RoboCasa内置了25种基础原子任务和75种组合任务，能够真实模拟机器人在复杂厨房场景中的多样化操作行为。
+* **DexMimicGen** [6 Mar 2025, ICRA 2025],[repo](https://github.com/NVlabs/dexmimicgen/), [website](https://dexmimicgen.github.io/):以RoboSuite和MimicGen为基础，在MuJoCo平台上构建的高保真双臂桌面操作任务仿真环境。DexMimicGen涵盖9类典型双臂任务，提出了增强版real2sim2real数据自动生成技术，只需60段真实人类演示便可生成2.1万条高质量仿真数据。相比原版MimicGen，该框架显著提升了数据生成效率和真实感，使机器人双臂协作任务的仿真训练更具实用性。
+* **FUSE Dataset** [ICRA 2025] [website](https://fuse-model.github.io/) 包含26,866条远程操控轨迹，涵盖桌面抓取、购物袋内抓取和按钮按压三类任务。机器人通过Meta Oculus Quest 2 VR头显操作，任务结合语言指令和复杂视觉遮挡，支持多传感器与语言融合的机器人策略研究。
+* **BiPlay Dataset** [website](https://dit-policy.github.io/):为了解决现有双臂数据集任务单一、环境固定的问题，BiPlay数据集采用随机物体和背景，采集多样化双臂操作轨迹。数据由多段3.5分钟的机器人操作视频拆分成7023个带语言任务描述的剪辑，总计10小时数据，支持双臂操作泛化研究。
+* **DROID (Distributed Robot Interaction Dataset)**[website](https://droid-dataset.github.io/)：包含76,000条示范轨迹，约350小时交互数据，覆盖564个场景和86个任务。数据由50名采集员在北美、亚洲和欧洲12个月内收集，场景和任务多样性显著提升。基于DROID训练的策略表现更优、鲁棒性和泛化能力更强。数据集、训练代码及硬件搭建指南均已开源。
+* **BridgeData V2**[website](https://rail-berkeley.github.io/bridgedata/)：包含60,096条轨迹数据，涵盖24个环境和13类技能，支持基于目标图像或自然语言指令的多任务开放词汇学习。数据主要采集自7个玩具厨房环境及多样桌面、洗衣机等场景，轨迹包括50,365条远程操控示范和9,731条脚本策略执行。每条轨迹均标注对应自然语言任务描述，促进跨环境和跨机构的技能泛化研究。
+* **Ego4DSounds** [website](https://ego4dsounds.github.io/)：作为Ego4D大规模第一人称视角数据集的多模态子集，包含超过120万条视频剪辑，覆盖3000多个不同日常场景和行为，如烹饪、清洁、购物和社交等。数据强调动作与环境声音的高度对应，配备带时间戳的动作叙述，支持具身智能中动作感知、多模态融合及声音生成等任务的研究。
+* **RH20T**[website](https://rh20t.github.io/)：人机交互数据集，包含丰富的人脸和语音信息，使用时需注意隐私保护，仅限模型训练。数据原始规模约40TB，提供尺寸缩减版（约5TB RGB，10TB RGB-D）。包含7组RGB视频及对应深度数据，附带相机标定和机器人关节角度信息。数据通过Google Drive和百度云公开下载。
+
