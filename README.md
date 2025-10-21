@@ -57,6 +57,43 @@
   * HuggingFace LeRobot (Europe, check the Discord): [website](https://github.com/huggingface/lerobot)
   * K-scale labs (US, check the Discord): [website](https://kscale.dev/)
  
+## 算法与相关知识
+
+> 以下为具身的有关算法总览表。
+
+| 小节 | 主题 | 作用/目标 | 关键点 | 代表示例/链接 |
+|---|---|---|---|---|
+| 3.1 | 常用工具 | 提升3D/机器人实践效率 | 点云降采样（随机/均匀/最远点/法线空间）<br>手眼标定（眼在手上/手外） | 降采样：[知乎](https://zhuanlan.zhihu.com/p/558683732)；手眼标定：[GitHub](https://github.com/fishros/handeye-calib) |
+| 3.2 | 视觉基础模型 | 直接赋能下游任务（检测/分割/深度/特征） | CLIP/DINO/SAM/SAM2/Grounding-DINO/OmDet-Turbo<br>FoundationPose/Depth Anything/Point Transformer v3/RDT-1B/SigLIP/Stable Diffusion | CLIP：[GitHub](https://github.com/openai/CLIP)；DINOv2：[GitHub](https://github.com/facebookresearch/dinov2)；SAM：[官网](https://segment-anything.com/)；Grounding-DINO：[GitHub](https://github.com/IDEA-Research/GroundingDINO) |
+| 3.3 | 机器人学习 | 感知-决策-控制全链路 | 课程（ETH/TTIC/UdeM、MILA、CMU、USC、MIT）<br>MPC（显式/非线性/鲁棒/学习增强）<br>RL（PPO/SAC/TRPO/A3C）；IL（教程/实操） | Duckietown：[课程](https://www.edx.org/learn/technology/eth-zurich-self-driving-cars-with-duckietown)；CS285：[网站](https://rail.eecs.berkeley.edu/deeprlcourse/)；MPC综述：[Survey](https://www.sciencedirect.com/science/article/abs/pii/0005109889900022) |
+| 3.4 | LLM for Robotics | 利用LLM做规划/代码策略/与规划器结合 | 高层规划：PaLM-E/EmbodiedGPT 等<br>统一高低层：RT-2<br>LLM+Planner：LLM+P/AutoTAMP<br>Code as Policy/Instruction2Act | PaLM-E：[ArXiv](https://arxiv.org/abs/2303.03378)；RT-2：[Page](https://robotics-transformer2.github.io/) |
+| 3.5 | VLA 模型 | 端到端视-语-动（动作token化） | 自回归：RT系/RoboFlamingo/OpenVLA/Tiny/TraceVLA<br>扩散动作头：Octo/π0/CogACT/Diffusion-VLA<br>3D融合：3D-VLA/SpatialVLA<br>产业与最新：GR00T-N1/Helix/pi-0.5/Hi-Robot 等 | OpenVLA：[GitHub](https://github.com/openvla)；Octo：[Page](https://octo-models.github.io/)；GR00T-N1：[GitHub](https://github.com/NVIDIA/Isaac-GR00T) |
+| 3.6 | 计算机视觉 | 2D/3D/4D 基础与生成 | 2D：CNN/ResNet/ViT/Swin；生成：自回归/扩散综述<br>3D：Geiger 课、GAMES203、3D生成索引<br>4D：视频理解/4D生成综述与列表 | CS231n：[网站](https://cs231n.stanford.edu/schedule.html)；扩散综述：[PDF](https://arxiv.org/pdf/2209.00796) |
+| 3.6.4 | 视觉提示 | 视觉线索→零样本任务适应 | 综述；PIVOT；SOM-GPT4V | 综述：[ArXiv](https://arxiv.org/abs/2409.15310)；PIVOT：[Page](https://pivot-prompt.github.io) |
+| 3.6.5 | 可供性锚定 | 从感知到可交互区域定位 | 2D：Cross-View-AG/AffordanceLLM/AGD20K<br>3D：OpenAD/Where2Act/VAT-Mart/DeformableAffordance/SceneFun3D | Where2Act：[ArXiv](https://arxiv.org/abs/2101.02692)；SceneFun3D：[Page](https://scenefun3d.github.io/) |
+| 3.7 | 计算机图形学 | 渲染/仿真（NeRF/3DGS/并行） | GAMES101/202/105；NeRF/3DGS原理课<br>3D预训练综述；3DGS在机器人综述 | GAMES101：[网站](https://games-cn.org/intro-graphics/)；3DGS综述：[ArXiv](https://arxiv.org/pdf/2410.12262v2) |
+| 3.8 | 多模态模型 | 融合视觉×语言（VLM/生成/强化） | CLIP、LLaVA、多模态生成综述<br>VLM-R1（GRPO 强化多模态） | LLaVA：[Site](https://llava-vl.github.io/)；VLM-R1：[GitHub](https://github.com/om-ai-lab/VLM-R1) |
+| 3.9 | 机器人导航 | 目标/图像/语语导航；端到端/模块化/零样本 | 模块化：建图/全局/局部策略；零样本：CLIP/LLM先验<br>代表：SemExp、PONI、3D-Aware、CoWs、L3MVN、ESC、SG-Nav<br>数据集：MP3D/HM3D、RoboTHOR | SG-Nav：[ArXiv](https://arxiv.org/abs/2410.08189)；MP3D：[网站](https://niessner.github.io/Matterport/) |
+
+> 以下为现有的视觉基础模型。
+
+| 模型 | 核心用途 | 典型场景 | 链接 |
+|---|---|---|---|
+| CLIP / SigLIP | 图文对齐/检索/先验 | 零样本检测/导航/物体检索 | [CLIP](https://github.com/openai/CLIP) · [SigLIP](https://huggingface.co/docs/transformers/en/model_doc/siglip) |
+| DINO / DINOv2 | 强视觉特征/对应关系 | 匹配/跟踪/多视几何先验 | [DINOv2](https://github.com/facebookresearch/dinov2) |
+| SAM / SAM2 | 分割 / 视频跟踪分割 | 交互式标注/视频级实例跟踪 | [SAM](https://segment-anything.com/) · [SAM2](https://ai.meta.com/sam2/) |
+| Grounding-DINO | 文本引导检测（OVD） | 开放词表目标检测 | [GitHub](https://github.com/IDEA-Research/GroundingDINO) |
+| OmDet-Turbo | 极速开放词表检测 | 高FPS实时检测 | [GitHub](https://github.com/om-ai-lab/OmDet) |
+| Grounded-SAM | 检测+分割一体 | 一次性定位并分割目标 | [GitHub](https://github.com/IDEA-Research/Grounded-SAM-2) |
+| Depth Anything v1/v2 | 单目深度估计 | 3D重建/导航/操控几何先验 | [v1](https://github.com/LiheYoung/Depth-Anything) · [v2](https://github.com/DepthAnything/Depth-Anything-V2) |
+| Point Transformer v3 | 点云特征提取 | 3D理解/几何检测 | [GitHub](https://github.com/Pointcept/PointTransformerV3) |
+| FoundationPose | 物体位姿跟踪 | 操控/抓取/放置 | [GitHub](https://github.com/NVlabs/FoundationPose) |
+| RDT-1B | 双臂操作基础模型 | 少样本操控 | [Page](https://rdt-robotics.github.io/rdt-robotics/) |
+| Stable Diffusion | 生成/先验&目标图 | 生成目标状态/数据增强 | [GitHub](https://github.com/CompVis/stable-diffusion) |
+
+
+
+
 ## 具身智能（Embodied AI）主要数据集与平台汇总
 > 以下为近年具身智能领域的重要开源数据集和仿真平台，涵盖真实机器人、仿真环境、多模态感知与语言对齐等方向。
 
