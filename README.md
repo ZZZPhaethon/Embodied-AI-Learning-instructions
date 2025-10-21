@@ -32,4 +32,4 @@
 
 ## How - 如何进行入门
 
-感谢Jiyao哥提供给初学者的[具身初学者所需要具备的技能](\assets\For_Beginners.pdf)
+感谢Jiyao哥提供给初学者的[具身初学者所需要具备的技能](.\assets\For_Beginners.pdf)
