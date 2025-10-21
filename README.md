@@ -78,6 +78,16 @@
 
 ---
 
+## Benchmarks基准集
+| Benchmark | 年份 | 主要关注点 | 链接 | 简介 |
+|------------|------|-------------|------|------|
+| **CALVIN** | 2022 | 多模态输入、自然语言控制、长程规划 | [GitHub](https://github.com/mees/calvin) · [Website](http://calvin.cs.uni-freiburg.de/) | 结合语言控制、高维视觉输入与 7 自由度机械臂的长时序操纵 benchmark，用于评估具身智能模型的多模态与规划能力。 |
+| **Meta-World** | — | 元强化学习、多任务泛化 | [Website](https://meta-world.github.io/) | 含 50 个机器人任务，支持 ML1、ML10、ML45、MT10、MT50 等集合，测试 RL agent 的多任务与泛化能力，基于 Mujoco。 |
+| **Embodied Agent Interface** | 2023 | LLM 决策评估 | [Website](https://embodied-agent-interface.github.io/) | 评估大型语言模型在具身决策中的推理、任务分解与动作建模能力，不涉及执行控制。 |
+| **RoboGen** | 2023 | 数据与任务生成 | [Repo](https://github.com/Genesis-Embodied-AI/RoboGen) · [Website](https://robogen-ai.github.io/) | 通过程序化生成器生成具身任务、场景与带标签数据，可用于监督训练与评测。 |
+| **LIBERO** | 2024 | 程序化任务生成、终身学习 | [Repo](https://github.com/Lifelong-Robot-Learning/LIBERO) · [Website](https://libero-project.github.io/intro.html) | 可生成无限任务，内置 RNN/Transformer/ViLT 网络与多种持续学习算法，适用于顺序微调与多任务训练。 |
+| **RoboTwin** | 2024 | 双臂操作与多任务评测 | [Repo](https://github.com/TianxingChen/RoboTwin) | 使用程序生成双臂机器人任务数据，提供多任务统一评测标准。 |
+
 
 
 
