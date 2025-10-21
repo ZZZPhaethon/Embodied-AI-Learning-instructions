@@ -91,6 +91,25 @@
 | RDT-1B | 双臂操作基础模型 | 少样本操控 | [Page](https://rdt-robotics.github.io/rdt-robotics/) |
 | Stable Diffusion | 生成/先验&目标图 | 生成目标状态/数据增强 | [GitHub](https://github.com/CompVis/stable-diffusion) |
 
+> VLA（Vision-Language-Action）模型对比速览
+
+| 模型 | 范式 / 架构 | 动作表示 | 训练数据规模 / 来源 | 特点与亮点 | 开源情况 / 链接 |
+|---|---|---|---|---|---|
+| **RT-1** (Google, 2022) | 自回归 Transformer | 离散 token 序列（图像+指令→动作） | 超过 130k 小时的机器人数据 | 开创 VLA 端到端范式；多任务泛化 | ✅ [RT-1 GitHub](https://github.com/google-research/robotics_transformer) |
+| **RT-2** (Google DeepMind, 2023) | VLM + 控制融合（多模态 Transformer） | 离散语言式动作 token | 训练于 PaLM-E/RT-1 数据 + 网页语义知识 | 结合 LLM 推理与机器人感知；泛化性强 | ✅ [RT-2 Page](https://robotics-transformer2.github.io/) |
+| **RoboFlamingo** (2023) | 多模态 + 自回归 | 图像 + 文本 + 机器人状态 → 动作 token | RoboVQA / Manipulation 数据 | 融合视觉问答与操控，支持开放指令 | ✅ [GitHub](https://github.com/jimmyyhwu/RoboFlamingo) |
+| **OpenVLA** (Meta, 2024) | 通用 VLA 框架 | 动作离散化（Tokenized Policy） | RoboSet / BridgeData / Open-X-Embodiment | 强调可扩展与开源基准；多任务统一接口 | ✅ [GitHub](https://github.com/openvla/openvla) |
+| **TinyVLA / TraceVLA** (2024) | 轻量级 VLA（推理高效） | 离散动作/语言 token | 基于 RT 数据精简训练 | 资源受限机器人可用；高FPS推理 | ✅ [TinyVLA GitHub](https://github.com/h2oai/tinyvla) |
+| **Octo** (Stanford, 2024) | 扩散式动作建模 | 连续动作（Diffusion Head） | RoboNet / RLBench / Open-X-Embodiment | 扩散生成稳定多模态动作分布 | ✅ [Octo Page](https://octo-models.github.io/) |
+| **π0 / π0.5 / π1** (DeepMind, 2024–2025) | 扩散式策略（Policy Diffusion） | 连续动作 | RT-2 + X-Embodiment 扩展数据 | 与 GR00T-N1 等产业系模型协同验证 | 🚧 待开源（论文已公开） |
+| **CogACT / Diffusion-VLA** | 语言条件扩散策略 | 连续动作轨迹 | 多源抓取与操控任务 | 结合语言 + 扩散提升可解释性与鲁棒性 | 🚧 部分代码开放 |
+| **3D-VLA / SpatialVLA** | 3D空间理解融合（Point+Image） | 3D坐标系下动作 token | 合成 + 实机混合任务 | 支持空间关系推理与位姿指令执行 | 🚧 研究中，代码待放出 |
+| **Helix (Figure.AI, 2024)** | 商业级 VLA 系统（RT-2+Pi 系列增强） | 混合动作表示（语言 + 低层控制） | 私有 Figure 机器人语料 | 实机自监督+云端协同训练；产业化范例 | ❌ 未开源 |
+| **GR00T-N1 (NVIDIA, 2024)** | 工业级 VLA 框架 | 视觉/语言/动作三模态融合 | Isaac GR00T 平台数据 | 面向企业机器人系统的通用VLA | ✅ [NVIDIA GR00T](https://github.com/NVIDIA/Isaac-GR00T) |
+| **SafeVLA / HybridVLA / DexVLA / PointVLA** | 安全/可解释/Dex手操控/点云融合 | 多模态动作控制 | 针对特定子任务 (如Dex-hand/Grasping) | 拓展性与安全性方向研究 | 🚧 多为论文阶段 |
+
+
+
 
 
 
