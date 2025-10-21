@@ -57,18 +57,27 @@
   * HuggingFace LeRobot (Europe, check the Discord): [website](https://github.com/huggingface/lerobot)
   * K-scale labs (US, check the Discord): [website](https://kscale.dev/)
  
-## 具身领域的公开数据集
-* **Open X-Embodiment: Robotic Learning Datasets and RT-X Models**, [website](https://robotics-transformer-x.github.io/):  22种不同机器人平台的超过100万条真实机器人轨迹数据，覆盖了527种不同的技能和160,266项任务，主要集中在抓取和放置。
-* **AgiBot World Datasets (智元机器人)**, [website](https://agibot-world.com/): 八十余种日常生活中的多样化技能，超过100万条轨迹数据，采集自**同构型机器人**, 多级质量把控和全程人工在环的策略，从采集员的专业培训，到采集过程中的严格管理，再到数据的筛选、审核和标注，每一个环节都经过了精心设计和严格把控。
-* **RoboMIND**, [website](https://x-humanoid-robomind.github.io/): 包含了在479种不同任务中涉及96类独特物体的10.7万条真实世界演示轨迹，来自四种不同协作臂，任务被分为基础技能、精准操作、场景理解、柜体操作和协作任务五大类。
-* **All Robots in One,** [website](https://imaei.github.io/project_pages/ario/): ARIO 数据集，包含了 **2D、3D、文本、触觉、声音 5 种模态的感知数据**，涵盖**操作**和**导航**两大类任务，既有**仿真数据**，也有**真实场景数据**，并且包含多种机器人硬件，有很高的丰富度。在数据规模达到三百万的同时，还保证了数据的统一格式，是目前具身智能领域同时达到高质量、多样化和大规模的开源数据集。
-* **MimicGen** [26 Oct 2023, CoRL 2023],[repo](https://github.com/NVlabs/mimicgen),[website](https://mimicgen.github.io/)：基于Robosuite与MuJoCo开发的高效数据生成框架，主要聚焦于单臂机器人桌面操作任务，支持多种主流机器人型号。MimicGen提出了一种自动化的数据扩增方法，能够从少量真实人类演示中自动生成大量模拟数据，例如仅使用200段真人演示即可生成超过5万条仿真演示数据，涵盖18类常见机器人任务。
-* **RoboCasa** [4 Jun 2024],[repo](https://github.com/robocasa/robocasa), [website](https://robocasa.ai/):基于RoboSuite与MimicGen在MuJoCo中构建的高仿真厨房任务仿真平台。RoboCasa提供了120个多样化厨房环境，包含超过2500个3D物体模型。平台支持单臂、双臂、人形机器人以及移动底座搭载机械臂的机器人系统。此外，RoboCasa内置了25种基础原子任务和75种组合任务，能够真实模拟机器人在复杂厨房场景中的多样化操作行为。
-* **DexMimicGen** [6 Mar 2025, ICRA 2025],[repo](https://github.com/NVlabs/dexmimicgen/), [website](https://dexmimicgen.github.io/):以RoboSuite和MimicGen为基础，在MuJoCo平台上构建的高保真双臂桌面操作任务仿真环境。DexMimicGen涵盖9类典型双臂任务，提出了增强版real2sim2real数据自动生成技术，只需60段真实人类演示便可生成2.1万条高质量仿真数据。相比原版MimicGen，该框架显著提升了数据生成效率和真实感，使机器人双臂协作任务的仿真训练更具实用性。
-* **FUSE Dataset** [ICRA 2025] [website](https://fuse-model.github.io/) 包含26,866条远程操控轨迹，涵盖桌面抓取、购物袋内抓取和按钮按压三类任务。机器人通过Meta Oculus Quest 2 VR头显操作，任务结合语言指令和复杂视觉遮挡，支持多传感器与语言融合的机器人策略研究。
-* **BiPlay Dataset** [website](https://dit-policy.github.io/):为了解决现有双臂数据集任务单一、环境固定的问题，BiPlay数据集采用随机物体和背景，采集多样化双臂操作轨迹。数据由多段3.5分钟的机器人操作视频拆分成7023个带语言任务描述的剪辑，总计10小时数据，支持双臂操作泛化研究。
-* **DROID (Distributed Robot Interaction Dataset)**[website](https://droid-dataset.github.io/)：包含76,000条示范轨迹，约350小时交互数据，覆盖564个场景和86个任务。数据由50名采集员在北美、亚洲和欧洲12个月内收集，场景和任务多样性显著提升。基于DROID训练的策略表现更优、鲁棒性和泛化能力更强。数据集、训练代码及硬件搭建指南均已开源。
-* **BridgeData V2**[website](https://rail-berkeley.github.io/bridgedata/)：包含60,096条轨迹数据，涵盖24个环境和13类技能，支持基于目标图像或自然语言指令的多任务开放词汇学习。数据主要采集自7个玩具厨房环境及多样桌面、洗衣机等场景，轨迹包括50,365条远程操控示范和9,731条脚本策略执行。每条轨迹均标注对应自然语言任务描述，促进跨环境和跨机构的技能泛化研究。
-* **Ego4DSounds** [website](https://ego4dsounds.github.io/)：作为Ego4D大规模第一人称视角数据集的多模态子集，包含超过120万条视频剪辑，覆盖3000多个不同日常场景和行为，如烹饪、清洁、购物和社交等。数据强调动作与环境声音的高度对应，配备带时间戳的动作叙述，支持具身智能中动作感知、多模态融合及声音生成等任务的研究。
-* **RH20T**[website](https://rh20t.github.io/)：人机交互数据集，包含丰富的人脸和语音信息，使用时需注意隐私保护，仅限模型训练。数据原始规模约40TB，提供尺寸缩减版（约5TB RGB，10TB RGB-D）。包含7组RGB视频及对应深度数据，附带相机标定和机器人关节角度信息。数据通过Google Drive和百度云公开下载。
+## 具身智能（Embodied AI）主要数据集与平台汇总
+> 以下为近年具身智能领域的重要开源数据集和仿真平台，涵盖真实机器人、仿真环境、多模态感知与语言对齐等方向。
+
+| 数据集 / 平台 | 时间 / 会议 | 来源 / 链接 | 核心内容与特征 |
+|----------------|--------------|---------------|----------------|
+| **Open X-Embodiment** | — | [Website](https://robotics-transformer-x.github.io/) | 包含 22 种不同机器人平台的超过 **100 万条真实轨迹数据**，覆盖 **527 种技能** 和 **160,266 项任务**，主要集中在抓取与放置任务。 |
+| **AgiBot World Datasets (智元机器人)** | — | [Website](https://agibot-world.com/) | 拥有 **80+ 种日常技能**、**100 万+ 轨迹数据**，来自同构型机器人，具备多级质量控制与人工在环采集流程，数据质量极高。 |
+| **RoboMIND** | — | [Website](https://x-humanoid-robomind.github.io/) | 含 **10.7 万条真实演示轨迹**，覆盖 96 类物体与 479 种任务，来自 4 种协作臂，任务分为：基础技能、精准操作、场景理解、柜体操作、协作任务五类。 |
+| **All Robots in One (ARIO)** | — | [Website](https://imaei.github.io/project_pages/ario/) | 提供 **2D、3D、文本、触觉、声音** 五模态感知数据，涵盖 **操作与导航** 两大任务，含仿真与真实数据，规模达 **300 万条**，格式统一、硬件多样。 |
+| **MimicGen** | 26 Oct 2023, CoRL 2023 | [Repo](https://github.com/NVlabs/mimicgen) / [Website](https://mimicgen.github.io/) | 基于 Robosuite 与 MuJoCo 的高效数据生成框架，聚焦单臂桌面操作。通过 **200 段真人演示生成 5 万条仿真数据**，覆盖 18 类常见任务。 |
+| **RoboCasa** | 4 Jun 2024 | [Repo](https://github.com/robocasa/robocasa) / [Website](https://robocasa.ai/) | 基于 RoboSuite 与 MimicGen 的高仿真厨房任务平台，含 **120 个厨房环境**、**2500+ 物体模型**、**25 种基础任务 + 75 种组合任务**，支持单臂、双臂、人形及移动机器人系统。 |
+| **DexMimicGen** | 6 Mar 2025, ICRA 2025 | [Repo](https://github.com/NVlabs/dexmimicgen/) / [Website](https://dexmimicgen.github.io/) | 以 RoboSuite + MimicGen 构建的高保真双臂仿真环境，含 9 类典型双臂任务，仅用 **60 段真实演示生成 2.1 万条仿真数据**，支持 real2sim2real 自适应生成。 |
+| **FUSE Dataset** | ICRA 2025 | [Website](https://fuse-model.github.io/) | 包含 **26,866 条远程操控轨迹**，涉及桌面抓取、购物袋内抓取、按钮按压任务。通过 VR 操控采集，结合语言指令与复杂视觉遮挡，支持多模态策略研究。 |
+| **BiPlay Dataset** | — | [Website](https://dit-policy.github.io/) | 专注双臂操作泛化研究，采用随机物体与背景，包含 **7023 个语言标注剪辑**（约 10 小时视频），支持双臂操作与任务多样性研究。 |
+| **DROID (Distributed Robot Interaction Dataset)** | — | [Website](https://droid-dataset.github.io/) | 含 **76,000 条示范轨迹 / 350 小时数据**，覆盖 **564 场景、86 任务**，由 50 名采集员在三大洲采集，任务多样性与鲁棒性强。 |
+| **BridgeData V2** | — | [Website](https://rail-berkeley.github.io/bridgedata/) | 含 **60,096 条轨迹**（24 环境、13 技能），支持基于图像或语言的多任务学习；含 **50,365 条远程演示 + 9731 条脚本策略执行**，每条轨迹均含自然语言描述。 |
+| **Ego4DSounds** | — | [Website](https://ego4dsounds.github.io/) | Ego4D 子集，包含 **120 万+ 视频剪辑**，覆盖 3000+ 日常场景（烹饪、清洁、购物、社交等），强调 **动作与环境声音对齐**，支持声音-动作多模态研究。 |
+| **RH20T** | — | [Website](https://rh20t.github.io/) | 大规模人机交互数据集，约 **40TB 原始数据（含 RGB / RGB-D / 深度 / 音频）**，含面部与语音信息，附带相机标定与机器人关节数据，提供 5TB 精简版下载。 |
+
+---
+
+
+
 
