@@ -2,7 +2,7 @@
 
   <img src="assets/logo.png" alt="EmbodiedAI" width="600"/>
 
-  <h1>具身智能学习指导 Embodied-AI-Learning—Instructions</h1>
+  <h1>具身智能入门 Embodied-AI-Learning—Instructions</h1>
 
 </div>
 
@@ -10,7 +10,7 @@
 
 <section id="start"></section>
 
-## 1. Start From Here - 从这里开始，具身智能的定义与相关的类别划分
+## 具身智能的定义与相关的类别划分
 
 > **定义**：Embodied AI 是指让智能体（agent）在具备“身体”的情况下与真实或虚拟环境交互，通过感知、行动和反馈来学习智能行为。  
 > 它融合了计算机视觉、自然语言处理、机器人学、强化学习、多模态理解等多个方向。具体领域划分请见下表。
@@ -30,6 +30,29 @@
 
 ---
 
-## How - 如何进行入门
+## 如何进行入门
 
-感谢Jiyao哥提供给初学者的[具身初学者所需要具备的技能](./assets/For_Beginners.pdf)
+感谢Jiyao哥提供给初学者的[具身初学者所需要具备的技能](./assets/For_Beginners.pdf),因此在入门过程中按照深度学习(deep learning),机器人学(Robotics)以及3D视觉(3DVISION)进行入门，在本仓库不同的类别下分别包含着与该领域相关的学习资料和内容，比如说，cs231n作为入门计算机视觉深度学习的良好学习材料，我在这里对于课程中的内容形成了笔记记录，并且完成了相应的assignments，所有的代码和笔记都在*Deep_learning*文件夹下，同理其余学习资料也会按照类别和内容整理在相应的类别下。
+
+
+## 具身领域相关的信息
+在这里特别感谢[具身智能学习指南](https://github.com/TianxingChen/Embodied-AI-Guide)所收集到的非常详细的从学习到工作以及社群的丰富信息，可以快速为初学者消除信息差，以下的内容是经过本人筛选并且结合实用性所总结
+
+* 社交媒体:
+
+  * 可以关注的公众号: **石麻日记 (超高质量!!!)**, 机器之心, 新智元, 量子位, Xbot具身知识库, 具身智能之心, 自动驾驶之心, 3D视觉工坊
+
+  * AI领域值得关注的博主列表 [3]: [zhihu](https://zhuanlan.zhihu.com/p/682110383)
+
+* 具身智能会投稿的较高质量会议与期刊：Science Robotics, TRO, IJRR, JFR, RSS, IROS, ICRA, ICCV, ECCV, ICML, CVPR, NeurIPS, ICLR, AAAI, ACL等。
+
+
+* Awesome-Embodied-AI-Job (具身智能招贤榜): [Repo](https://github.com/StarCycle/Awesome-Embodied-AI-Job/tree/main)
+  
+* 社区:
+  * DeepTimber Robotics Innovations Community, 深木科研交流社区: [website](https://gamma.app/public/DeepTimber-Robotics-Innovations-Community-A-Community-for-Multi-m-og0uv8mswl1a3q7?mode=doc)
+  * 宇树具身智能社群: [website](https://www.unifolm.com/#/)
+  * Simulately: Handy information and resources for physics simulators for robot learning research: [website](https://simulately.wiki/)
+  * DeepTimber-地瓜机器人社区: [website](https://developer.d-robotics.cc/forumList?id=156&title=Deeptimber)
+  * HuggingFace LeRobot (Europe, check the Discord): [website](https://github.com/huggingface/lerobot)
+  * K-scale labs (US, check the Discord): [website](https://kscale.dev/)
