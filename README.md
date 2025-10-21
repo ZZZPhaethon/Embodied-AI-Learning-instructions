@@ -108,11 +108,6 @@
 | **GR00T-N1 (NVIDIA, 2024)** | 工业级 VLA 框架 | 视觉/语言/动作三模态融合 | Isaac GR00T 平台数据 | 面向企业机器人系统的通用VLA | ✅ [NVIDIA GR00T](https://github.com/NVIDIA/Isaac-GR00T) |
 | **SafeVLA / HybridVLA / DexVLA / PointVLA** | 安全/可解释/Dex手操控/点云融合 | 多模态动作控制 | 针对特定子任务 (如Dex-hand/Grasping) | 拓展性与安全性方向研究 | 🚧 多为论文阶段 |
 
-
-
-
-
-
 ## 具身智能（Embodied AI）主要数据集与平台汇总
 > 以下为近年具身智能领域的重要开源数据集和仿真平台，涵盖真实机器人、仿真环境、多模态感知与语言对齐等方向。
 
@@ -144,6 +139,21 @@
 | **LIBERO** | 2024 | 程序化任务生成、终身学习 | [Repo](https://github.com/Lifelong-Robot-Learning/LIBERO) · [Website](https://libero-project.github.io/intro.html) | 可生成无限任务，内置 RNN/Transformer/ViLT 网络与多种持续学习算法，适用于顺序微调与多任务训练。 |
 | **RoboTwin** | 2024 | 双臂操作与多任务评测 | [Repo](https://github.com/TianxingChen/RoboTwin) | 使用程序生成双臂机器人任务数据，提供多任务统一评测标准。 |
 
+## 论文资源汇总表（Awesome Paper Lists for Embodied AI）
+
+| 名称 | 作者 / 团队 | 内容简介 | 链接 |
+|------|--------------|-----------|------|
+| **Awesome Humanoid Robot Learning** | Yanjie Ze | 收录人形机器人学习相关的论文与项目列表 | [GitHub Repo](https://github.com/YanjieZe/awesome-humanoid-robot-learning) |
+| **Paper Reading List** | DeepTimber Community | 机器人与具身智能方向的论文精读列表 | [GitHub Repo](https://github.com/DeepTimber-Robot-Lab/Paper-Reading-List) |
+| **Paper List** | Yanjie Ze | 通用机器人学习与具身智能论文索引 | [GitHub Repo](https://github.com/YanjieZe/Paper-List) |
+| **Paper List For EmbodiedAI** | Tianxing Chen | 聚焦具身智能 Embodied AI 的论文整理 | [GitHub Repo](https://github.com/TianxingChen/Paper-List-For-EmbodiedAI) |
+| **SOTA Paper Rating** | Weiyang Jin | 最新具身智能与机器人学习论文的 SOTA 评分与推荐 | [Website](https://waynejin0918.github.io/SOTA-paper-rating.io/) |
+| **Awesome-LLM-Robotics** | GT-RIPL (Georgia Tech) | 汇总使用大语言模型/多模态模型进行机器人学习与强化学习的论文 | [GitHub Repo](https://github.com/GT-RIPL/Awesome-LLM-Robotics) |
+| **Awesome-Video-Robotic-Papers** | Yaoyao (Freax) Qian | 视频理解与机器人结合的研究论文汇总 | [GitHub Repo](https://github.com/H-Freax/Awesome-Video-Robotic-Papers) |
+| **Awesome Embodied Robotics and Agent** | Haonan Zhang | 涵盖具身智能、机器人 Agent 与环境交互的论文与资源 | [GitHub Repo](https://github.com/zchoi/Awesome-Embodied-Robotics-and-Agent) |
+| **awesome-embodied-vla/va/vln** | Qiang (Jony) Zhang | 聚焦 VLA（视觉-语言-动作）、VA、VLN（视觉-语言导航）方向论文合集 | [GitHub Repo](https://github.com/jonyzhang2023/awesome-embodied-vla-va-vln) |
+| **Awesome-Affordance-Learning** | Hanqing Wang | 关于机器人可供性（Affordance Learning）研究的论文与数据集汇总 | [GitHub Repo](https://github.com/hq-King/Awesome-Affordance-Learning) |
+| **Embodied-AI-Paper-TopConf** | Wenxuan Song, Jiayi Chen, Xiaoquan Sun | 整理具身智能在顶会（CVPR/ICCV/NeurIPS等）中的代表论文 | [GitHub Repo](https://github.com/Songwxuan/Embodied-AI-Paper-TopConf) |
 
 
 
